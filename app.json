@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Messages Directory",
+    "slug": "messages-directory",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/app-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7FBFF"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-icon.png",
+        "backgroundColor": "#F7FBFF"
+      },
+      "package": "com.student.messagesdirectory"
+    },
+    "web": { "favicon": "./assets/app-icon.png" }
+  }
+}
